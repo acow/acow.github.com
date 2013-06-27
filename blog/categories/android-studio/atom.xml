@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[My Octopress Blog]]></title>
-  <link href="http://acow.github.io/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Android Studio | My Octopress Blog]]></title>
+  <link href="http://acow.github.io/blog/categories/android-studio/atom.xml" rel="self"/>
   <link href="http://acow.github.io/"/>
   <updated>2013-06-27T17:36:33+08:00</updated>
   <id>http://acow.github.io/</id>
@@ -52,30 +52,6 @@ Exec=/home/acow/android-studio/bin/studio.sh
 
 <pre><code># Oracle (Sun) JDK for Android Studio
 export STUDIO_JDK="/usr/lib/jvm/jdk1.7.0_25"
-</code></pre>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[我的第一篇博文]]></title>
-    <link href="http://acow.github.io/blog/2013/06/27/wo-de-di-pian-bo-wen/"/>
-    <updated>2013-06-27T14:03:00+08:00</updated>
-    <id>http://acow.github.io/blog/2013/06/27/wo-de-di-pian-bo-wen</id>
-    <content type="html"><![CDATA[<h2>新增文章</h2>
-
-<pre><code>rake new_post["title"]
-rake generate
-rake preview
-</code></pre>
-
-<p>打開 <a href="http://localhost:4000/">http://localhost:4000/</a> 可預覽成果</p>
-
-<h2>部署</h2>
-
-<pre><code>rake deploy
-git add .
-git commit -m 'comment'
-git push //第一次執行 git push origin source
 </code></pre>
 ]]></content>
   </entry>
