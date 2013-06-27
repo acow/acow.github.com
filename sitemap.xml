@@ -1,18 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
-        <loc>http://acow.github.io/blog/2013/06/27/wo-de-di-%5B%3F%5D-pian-bo-wen/</loc>
-        <lastmod>2013-06-27T14:03:50+08:00</lastmod>
-    </url>
-    <url>
-        <loc>
-            http://acow.github.io/blog/2013/06/27/jiang-android-studiojia-dao-launcher-jie-jing/
-        </loc>
-        <lastmod>2013-06-27T15:29:17+08:00</lastmod>
+        <loc>http://acow.github.io/blog/2013/06/27/wo-de-di-pian-bo-wen/</loc>
+        <lastmod>2013-06-27T17:10:23+08:00</lastmod>
     </url>
     <url>
         <loc>http://acow.github.io/</loc>
-        <lastmod>2013-06-27T15:29:17+08:00</lastmod>
+        <lastmod>2013-06-27T17:10:23+08:00</lastmod>
     </url>
     <url>
         <loc>http://acow.github.io/robots.txt</loc>
@@ -20,6 +14,6 @@
     </url>
     <url>
         <loc>http://acow.github.io/blog/archives/</loc>
-        <lastmod>2013-06-27T15:29:17+08:00</lastmod>
+        <lastmod>2013-06-27T17:10:23+08:00</lastmod>
     </url>
 </urlset>
