@@ -3,9 +3,9 @@
 # ----------------------- #
 
 url: http://acow.github.io
-title: My Octopress Blog
-subtitle: A blogging framework for hackers.
-author: Your Name
+title: acow's notebook
+subtitle: Just for note.
+author: acow
 simple_search: http://google.com/search
 description:
 
@@ -24,6 +24,22 @@ email:
 # ----------------------- #
 #    Jekyll & Plugins     #
 # ----------------------- #
+
+# ----------------------- # 
+# Categories # 
+# ----------------------- # 
+# create categories page 
+category_list :  true 
+# use counter after categories 
+category_counter :  true 
+# category title 
+category_title :  分類
+# create an include categories list in @source/_includes/asides/category_list.html 
+# and don't forget to add ' asides/category_list.html' into @default_asides if you want to enable it. 
+category_sidebar :  true 
+# create an include categories tag cloud page in @source/_includes/asides/tag_cloud.html 
+# and don't forget to add 'asides/tag_cloud.html' to @default_asides if you want to enable it. 
+category_tag_cloud :  true
 
 # If publishing to a subdirectory as in http://site.com/project set 'root: /project'
 root: /
@@ -50,7 +66,7 @@ titlecase: true       # Converts page and post titles to titlecase
 
 # list each of the sidebar modules you want to include, in the order you want them to appear.
 # To add custom asides, create files in /source/_includes/custom/asides/ and add them to the list like 'custom/asides/custom_aside_name.html'
-default_asides: [asides/recent_posts.html, asides/github.html, asides/delicious.html, asides/pinboard.html, asides/googleplus.html]
+default_asides: [asides/recent_posts.html, custom/asides/category_cloud.html, custom/asides/recent_comment.html, asides/github.html, asides/delicious.html, asides/pinboard.html, asides/googleplus.html]
 
 # Each layout uses the default asides, but they can have their own asides instead. Simply uncomment the lines below
 # and add an array with the asides you want to use.
@@ -63,7 +79,7 @@ default_asides: [asides/recent_posts.html, asides/github.html, asides/delicious.
 # ----------------------- #
 
 # Github repositories
-github_user:
+github_user: 
 github_repo_count: 0
 github_show_profile_link: true
 github_skip_forks: true
@@ -90,11 +106,11 @@ delicious_user:
 delicious_count: 3
 
 # Disqus Comments
-disqus_short_name:
-disqus_show_comment_count: false
+disqus_short_name: acow
+disqus_show_comment_count: true
 
 # Google Analytics
-google_analytics_tracking_id:
+google_analytics_tracking_id: UA-42076256-1
 
 # Facebook Like
 facebook_like: false
